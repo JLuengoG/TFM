@@ -13,10 +13,10 @@ services:
       context: images/hbase
       dockerfile: Dockerfile
     ports:
-      - "2181"
-      - "16000"
-      - "16020"
+      - "2181:2181"
+      - "16000:16000"
       - "16010:16010"
+      - "16020:16020"
       - "16030:16030"
   rest-api:
     build:
