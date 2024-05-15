@@ -89,3 +89,12 @@ docker-compose logs hbase
 docker-compose logs rest-api
 ```
 
+## Container access via shell
+
+To access the shell of a running container, you can use the following commands:
+
+```sh
+docker exec -it zts-dev-env-hbase-1 /bin/bash
+docker exec -it zts-dev-env-nifi-1 /bin/bash
+docker exec -it zts-dev-env-rest-api-1 /bin/bash
+```
