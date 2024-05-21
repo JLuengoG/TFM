@@ -1,6 +1,8 @@
 services:
   nifi:
-    image: apache/nifi:1.23.2
+    build:
+      context: images/nifi
+      dockerfile: Dockerfile
     ports:
       - "8443:8443"
     volumes:
