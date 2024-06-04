@@ -28,7 +28,7 @@ This Docker Compose environment includes the following services:
 2. Place the ZTS NiFi NAR in `nars/`.
     - `nifi-hbase-manager-controller-nar.nar`
     - `nifi-hbase-manager-service-api-nar.nar`
-    - `nifi-zts-processors-nar.nar`
+    - `nifi-zts-nar.nar`
 
 3. Place the ZTS REST API WAR in `wars/`.
     - `zts-rest-api.war`
