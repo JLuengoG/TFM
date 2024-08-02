@@ -1,3 +1,10 @@
 Otros
 TFM_dataset_imagenes/Datasets
 TFM_dataset_imagenes/DCGAN
+
+# Virtual environment
+venv
+
+# Preprocessed data
+/CWRU_datasets/CWRU_preprocess_data
+/CWRU_datasets/DCGAN_generated_series
