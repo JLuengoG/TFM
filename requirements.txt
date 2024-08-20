@@ -1,4 +1,24 @@
+# Data manipulation and analysis
 numpy
 pandas
-matplotlib
 scikit-learn
+dtaidistance
+
+# Data visualization
+matplotlib
+
+# Deep learning
+tensorflow
+
+# Image processing
+opencv-python
+
+# Package installation and management
+setuptools
+
+# Libraries for graph and diagram visualization
+pydot==2.0.0
+graphviz==0.20.1
+
+## If the error "Module 'pydot' has no attribute 'InvocationException' " occurs
+##sudo apt install graphviz
