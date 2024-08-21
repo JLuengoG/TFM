@@ -2,6 +2,9 @@ Otros
 TFM_dataset_imagenes/Datasets
 TFM_dataset_imagenes/DCGAN
 
+# Logs
+DCGAN_training_logs.log
+
 # Virtual environment
 venv
 
