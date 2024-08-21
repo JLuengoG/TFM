@@ -4,6 +4,9 @@ pandas
 scikit-learn
 dtaidistance
 
+# Dynamic time warping
+tslearn
+
 # Data visualization
 matplotlib
 
